@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-image: url("assets/galaxy.jpg");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+header {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+}
+.logo img {
+    width: 120px;
+    max-width: 100%;
+}
+.links { 
+    text-align: center;
+}
+.links a {
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+.links a:hover {
+    color: #7159c1;
+    transition: color 200ms;
+}
+
+/* === icon === */
+.redes-socias {
+    display: flex;
+    align-items: right;
+}
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  .fa:hover {
+    background: #7159c1;
+    opacity: 0.7;
+    transition: 200ms;
+  }
+  .fa-facebook {
+    background: white;
+    color: black;
+  }
+
+  .fa-twitter {
+    background: white;
+    color: black;
+  }
+  .fa-github {
+    background: white;
+    color: black;
+  }
+
+  /* === MAIN === */
+
+.content {
+    margin-top: 30px;
+    text-align: center;
+}
+.content img {
+    width: 200px;
+    border-radius: 50%;
+}
+.content h1 {
+    margin-top: 20px;
+}
+.content h2 {
+    font-size: 17px;
+    margin-top: 8px;
+    font-weight: 400;
+}
+.lista ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px;
+    text-align: center;
+}
+.lista li {
+    list-style-type: none;
+    border: 2px solid white;
+    margin-left: 20px;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 5px;
+}
+.lista li:hover {
+    border: 2px solid #7159c1;
+}
+.lista li img {
+    width: 100px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#react {
+    margin-top: 11px;
+}
+
+/* === CONTEUDO === */
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.card01 {
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 150px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.card02 {
+    margin-left: 30px;
+    padding: 150px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card03 {
+    margin-left: 30px;
+    padding: 150px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card01:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+    border-color: rgb(113, 89, 193);
+    
+}
+.card02:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+    border-color: rgb(253, 149, 31);
+}
+.card03:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+    border-color: rgb(4, 211, 97);
+}
+#text01 span{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+    color: rgb(113, 89, 193);
+    border-color: rgb(113, 89, 193);
+}   
+#text02 span{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+    color: rgb(253, 149, 31);
+    border-color: rgb(253, 149, 31);
+}   
+#text03 span{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+    color: rgb(4, 211, 97);
+    border-color: rgb(4, 211, 97);
+}   
+.card-image img {
+    vertical-align: top;
+}
+.card-content p {
+    max-width: 270px;
+    text-align: center;
+    color: rgb(151, 151, 151);
+    font-size: 16px;
+    line-height: 26px;
+    margin: auto;
+    padding-top: 40px;
+}
+.card-content .cor01 span {
+    color: rgb(113, 89, 193);
+    border-color: rgb(113, 89, 193);
+    font-weight: 700;
+}
+.card-content .cor02 span {
+    color: rgb(253, 149, 31);
+    border-color: rgb(253, 149, 31);
+    font-weight: 700;
+}
+.card-content .cor03 span {
+    color: rgb(4, 211, 97);
+    border-color: rgb(4, 211, 97);
+    font-weight: 700;
+}
+.card-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 100px
+}
+.card-info p {
+    display: relative;
+    top:300px
+}
+.card-price {
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* === MODAL == */
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+.modal .close-modal {
+    color: black;
+    position: absolute;
+    right: 4px;
+    top: 3px;
+    cursor: pointer;
+}
+.modal .maximize-modal {
+    color: black;
+    position: absolute;
+    right: 30px;
+    top: 3px;
+    cursor: pointer;
+}
+
+/* === MODAL.ACTIVE === */
+
+.modal-overlay.active {
+   opacity: 1;
+   visibility: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+}
+
+/* === MODAL.MAXIMIZE === */
+
+.modal.maximize {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+}
